@@ -43,7 +43,7 @@ const singleCategory = (cat) =>
 // show all products
 const showProducts = (products)=>{
     let all_products = products.map(product=>{
-                return `<a href="./singleproduct.html?id=${product.id}">
+                return `<a href="./singleproduct.html?id=${product.id}" class="nav-link">
                 <div class="col">
                     <div class="card h-100">
                         <img src="${product.image}"  style='p-4 height:250px; margin:auto; aspect-ratio:1;' class=" card-img-top" alt="...">
